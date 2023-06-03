@@ -24,8 +24,8 @@ router.post('/auth-login', (req, respond) => {
 
     let con = mysql.createConnection({
         host: 'localhost',
-        user: 'root',
-        password: '',
+        user: 'test',
+        password: '1626'
         database: DATABASE
     })
 
@@ -58,8 +58,8 @@ router.post('/post-register', (req, respond) => {
 
     let con = mysql.createConnection({
         host: 'localhost',
-        user: 'root',
-        password: '',
+        user: 'test',
+        password: '1626'
         database: DATABASE
     })
 
@@ -102,8 +102,8 @@ router.get('/verify', (req, res) => {
 
     let con = mysql.createConnection({
         host: 'localhost',
-        user: 'root',
-        password:'',
+        user: 'test',
+        password: '1626'
         database: DATABASE
     })
 
@@ -124,8 +124,8 @@ router.get('/myaccount', (req, respond) => {
 
     let con = mysql.createConnection({
         host: 'localhost',
-        user: 'root',
-        password: '',
+        user: 'test',
+        password: '1626'
         database: DATABASE
     })
 
