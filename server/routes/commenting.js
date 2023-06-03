@@ -8,8 +8,8 @@ const DATABASE = 'adult_website'
 router.post('/commenting', (req, res) => {
     let con = mysql.createConnection({
         host: 'localhost',
-        user: 'root',
-        password: '',
+        user: 'test',
+        password: '1626'
         database: DATABASE
     })
 
@@ -29,8 +29,8 @@ router.post('/commenting', (req, res) => {
 router.get('/comments', (req, res) => {
     let con = mysql.createConnection({
         host: 'localhost',
-        user: 'root',
-        password: '',
+        user: 'test',
+        password: '1626'
         database: DATABASE
     })
 
