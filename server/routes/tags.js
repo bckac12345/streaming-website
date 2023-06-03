@@ -15,8 +15,8 @@ router.get('/categories/:tag', (req, respond) => {
 
     let con = mysql.createConnection({
         host: 'localhost',
-        user: 'root',
-        password: '',
+        user: 'test',
+        password: '1626'
         database: DATABASE
     })
 
