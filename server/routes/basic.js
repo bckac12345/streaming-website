@@ -26,8 +26,8 @@ router.get('/', (req, respond) => {
 
     let con = mysql.createConnection({
         host: 'localhost',
-        user: 'root',
-        password: '',
+        user: 'test',
+        password: '1626'
         database: DATABASE
     })
 
@@ -73,8 +73,8 @@ router.get('/video/:id', (req, respond) => {
     let id = req.params.id
     let con = mysql.createConnection({
         host: 'localhost',
-        user: 'root',
-        password: '',
+        user: 'test',
+        password: '1626'
         database: DATABASE,
         multipleStatements: true
     })
@@ -134,8 +134,8 @@ router.get('/stories', (req, respond) => {
 
     let con = mysql.createConnection({
         host: 'localhost',
-        user: 'root',
-        password: '',
+        user: 'test',
+        password: '1626'
         database: DATABASE
     })
 
@@ -166,8 +166,8 @@ router.get('/stories:id', (req, respond) => {
     let id = req.params.id
     let con = mysql.createConnection({
         host: 'localhost',
-        user: 'root',
-        password: '',
+        user: 'test',
+        password: '1626'
         database: DATABASE
     })
 
@@ -197,8 +197,8 @@ router.get('/gifs', (req, respond) => {
     
     let con = mysql.createConnection({
         host: 'localhost',
-        user: 'root',
-        password: '',
+        user: 'test',
+        password: '1626'
         database: DATABASE
     })
 
@@ -231,8 +231,8 @@ router.get('/gif:id', (req, respond) => {
     const id = req.params.id
     let con = mysql.createConnection({
         host: 'localhost',
-        user: 'root',
-        password: '',
+        user: 'test',
+        password: '1626'
         database: DATABASE
     })
 
